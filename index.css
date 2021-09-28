@@ -1,0 +1,257 @@
+body {
+  margin: 0px;
+  max-width: 1903px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.logo-languages {
+  max-width: 1246px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 12px;
+  
+}
+
+.logo-languages > img {
+  max-width: 144px;
+  height: 34px;
+  position: relative;
+  top: 10px;
+}
+
+.languages {
+  display: inline-block;
+}
+
+.languages > img {
+  display: inline-block;
+}
+
+.languages > p {
+  display: inline-block;
+}
+
+.logo-languages > div > button {
+  display: inline-block;
+  cursor: pointer;
+  max-width: 100%;
+  border: 0px;
+  border-radius: 3px;
+  text-align: center;
+  letter-spacing: 0.035em;
+  padding: 15px 27px 13px;
+  text-transform: uppercase;
+  color: var(--whiteMain);
+  transition: background-color 0.3s ease-out;
+  font: 700;
+  color: #fff;
+  background-color: #ff5a3e;
+  margin-left: 8px;
+}
+
+.instant-access {
+  background-color: #22293d;
+  max-width: 100%;
+  height: 620px;
+  padding-bottom: 72px;
+}
+
+.instant-access-area {
+  margin: 0px auto;
+  max-width: 65%;
+}
+
+.market-rumors {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 80px;
+}
+
+.market-rumors > p {
+  color: #fff;
+}
+
+.title-img-instant {
+  display: flex;
+
+}
+
+.title-instant {
+  max-width: 394px;
+}
+
+.title-instant > h1 {
+  color: #fff;
+  /* max-width: 394px; */
+  font-size: 40px;
+
+}
+
+.title-instant > p {
+  color: #fff;
+  /* max-width: 394px; */
+  font-size: 18px;
+}
+
+.title-instant > button {
+  cursor: pointer;
+  max-width: 100%;
+  color: #fff;
+  background-color: #ff5a3e;
+  padding: 8px 25px 9px;
+  letter-spacing: 0.035em;
+  line-height: 22px;
+  border: 0px;
+  border-radius: 3px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.icon {
+  margin: 43px 0px 30px;
+  display: flex;
+  justify-content: space-around;
+  max-width: 40%;
+}
+
+.img-instant > img {
+  max-width: 125%;
+  height: 500px;
+}
+
+.demo-about {
+  background-color: #161a25;
+  padding: 32px 0px;
+}
+
+.demo-about-area {
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  width: 65%;
+}
+
+.demo-about-area > div > h3 {
+  color: #ffffff;
+  max-width: 302px;
+  margin: 5px 0px 8px;
+}
+
+.demo-about-area > div > p {
+  color: #aeb2be;
+  max-width: 302px;
+}
+
+.title-sum {
+  text-align: center;
+  margin: 0px auto;
+  max-width: 100%;
+  width: 65%;
+  margin-bottom: 32px;
+}
+
+.title-sum > p {
+  color: #141415;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.title-sum > h2 {
+  font-size: 36px;
+  color: #141415;
+  margin: 0px;
+}
+
+.title-sum > h3 {
+  font-size: 18px;
+  color: #4f566b;
+  font-weight: 400;
+  line-height: 1.5;
+  max-width: 810px;
+  margin: 15px auto 0px;
+}
+
+.popular-assets {
+  background-color: #f4f4f6;
+  max-width: 100%;
+  height: 743px;
+  padding: 96px 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.price-update {
+  background-color: #ffffff;
+  max-width: 244px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.price-update > img {
+  width: 100%;
+  height: 90px;
+  margin-bottom: 35px;
+}
+
+.price-update > div {
+  text-align: center;
+}
+
+.price-update > div > h4 {
+  color: #4a4a4a;
+  margin: 0px;
+}
+
+.price-update > div > p {
+  color: #4a4a4a;
+  margin: 0px;
+  
+}
+
+.change-price {
+  margin: 0px auto;
+  padding: 10px 0px 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.change-price > div {
+  position: relative;
+  top: 10px;
+}
+
+.change-price > div > h5 {
+  font-size: 14px;
+  margin: 0px;
+}
+
+.change-price > div > p {
+  font-size: 10px;
+}
+
+.price-update > button {
+  cursor: pointer;
+  width: 160px;
+  line-height: 22px;
+  text-align: center;
+  border-radius: 3px;
+  padding: 12px 20px;
+  color: #ff5a3e;
+  transition: background-color 0.3s ease-out;
+  font-weight: 700;
+  font-size: 15px;
+  background-color: #ffffff;
+  border: 1px solid #ff5a3e;
+  margin: 0px auto 24px;
+}
+}
+
+
+
+
+
