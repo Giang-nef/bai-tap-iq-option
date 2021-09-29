@@ -10,10 +10,9 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 0px 12px;
-  
 }
 
-.logo-languages > img {
+.logo-languages>img {
   max-width: 144px;
   height: 34px;
   position: relative;
@@ -24,15 +23,15 @@ body {
   display: inline-block;
 }
 
-.languages > img {
+.languages>img {
   display: inline-block;
 }
 
-.languages > p {
+.languages>p {
   display: inline-block;
 }
 
-.logo-languages > div > button {
+.logo-languages>div>button {
   display: inline-block;
   cursor: pointer;
   max-width: 100%;
@@ -68,33 +67,31 @@ body {
   padding-bottom: 80px;
 }
 
-.market-rumors > p {
+.market-rumors>p {
   color: #fff;
 }
 
 .title-img-instant {
   display: flex;
-
 }
 
 .title-instant {
   max-width: 394px;
 }
 
-.title-instant > h1 {
+.title-instant>h1 {
   color: #fff;
   /* max-width: 394px; */
   font-size: 40px;
-
 }
 
-.title-instant > p {
+.title-instant>p {
   color: #fff;
   /* max-width: 394px; */
   font-size: 18px;
 }
 
-.title-instant > button {
+.title-instant>button {
   cursor: pointer;
   max-width: 100%;
   color: #fff;
@@ -117,7 +114,7 @@ body {
   max-width: 40%;
 }
 
-.img-instant > img {
+.img-instant>img {
   max-width: 125%;
   height: 500px;
 }
@@ -135,13 +132,13 @@ body {
   width: 65%;
 }
 
-.demo-about-area > div > h3 {
+.demo-about-area>div>h3 {
   color: #ffffff;
   max-width: 302px;
   margin: 5px 0px 8px;
 }
 
-.demo-about-area > div > p {
+.demo-about-area>div>p {
   color: #aeb2be;
   max-width: 302px;
 }
@@ -154,19 +151,19 @@ body {
   margin-bottom: 32px;
 }
 
-.title-sum > p {
+.title-sum>p {
   color: #141415;
   font-weight: 600;
   font-size: 18px;
 }
 
-.title-sum > h2 {
+.title-sum>h2 {
   font-size: 36px;
   color: #141415;
   margin: 0px;
 }
 
-.title-sum > h3 {
+.title-sum>h3 {
   font-size: 18px;
   color: #4f566b;
   font-weight: 400;
@@ -179,9 +176,17 @@ body {
   background-color: #f4f4f6;
   max-width: 100%;
   height: 743px;
-  padding: 96px 12px;
+  padding: 96px 12px 0px;
   display: flex;
   flex-direction: column;
+}
+
+.assets-area {
+  display: flex;
+  margin: 0px auto;
+  justify-content: center;
+  max-width: 100%;
+  column-gap: 35px;
 }
 
 .price-update {
@@ -190,27 +195,27 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
+  box-shadow: 0 0 16px 1px rgb(0 0 0 / 5%);
 }
 
-.price-update > img {
+.price-update>img {
   width: 100%;
   height: 90px;
   margin-bottom: 35px;
 }
 
-.price-update > div {
+.price-update>div {
   text-align: center;
 }
 
-.price-update > div > h4 {
+.price-update>div>h4 {
   color: #4a4a4a;
   margin: 0px;
 }
 
-.price-update > div > p {
+.price-update>div>p {
   color: #4a4a4a;
   margin: 0px;
-  
 }
 
 .change-price {
@@ -220,21 +225,21 @@ body {
   justify-content: center;
 }
 
-.change-price > div {
+.change-price>div {
   position: relative;
   top: 10px;
 }
 
-.change-price > div > h5 {
+.change-price>div>h5 {
   font-size: 14px;
   margin: 0px;
 }
 
-.change-price > div > p {
+.change-price>div>p {
   font-size: 10px;
 }
 
-.price-update > button {
+.price-update>button {
   cursor: pointer;
   width: 160px;
   line-height: 22px;
@@ -249,9 +254,344 @@ body {
   border: 1px solid #ff5a3e;
   margin: 0px auto 24px;
 }
+
+.why-invest-iq {
+  padding: 96px 12px;
 }
 
+.why-invest-iq-area {
+  display: flex;
+  margin: 0px auto;
+  max-width: 75%;
+}
 
+.why-invest-iq-area>div {
+  max-width: 315px;
+  margin: 0px auto;
+}
 
+.why-invest-iq-area>div>h5 {
+  color: #141415;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
 
+.why-invest-iq-area>div>p {
+  color: #4f566b;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
 
+.powerful-features {
+  background-color: #161a25;
+  max-width: 100%;
+  height: 948px;
+  padding: 96px 12px 0px;
+}
+
+.title-powerful-features {
+  text-align: center;
+  margin: 0px auto;
+  max-width: 100%;
+  width: 65%;
+  margin-bottom: 32px;
+}
+
+.title-powerful-features>h2 {
+  color: #ffffff;
+  font-size: 36px;
+  margin: 0px;
+}
+
+.title-powerful-features>h3 {
+  font-size: 18px;
+  color: #aeb2be;
+  font-weight: 400;
+  line-height: 1.5;
+  max-width: 810px;
+  margin: 15px auto 0px;
+}
+
+.about-powerful-features {
+  display: flex;
+  column-gap: 24px;
+  max-width: 66%;
+  margin: 0px auto;
+}
+
+.about-powerful-features>div {
+  cursor: pointer;
+  text-align: center;
+  background-color: #22293d;
+  border-radius: 8px;
+  padding: 36px 22px 0;
+  overflow: hidden;
+  flex: 1 0;
+  position: relative;
+  max-width: 347px;
+  height: 460px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-powerful-features>div>h4 {
+  color: #ffffff;
+  font-size: 17px;
+  max-width: 240px;
+  margin: 0px auto 70px;
+}
+
+.about-powerful-features>div>img {
+  width: 240px;
+  height: 351px;
+  margin: 0px auto;
+}
+
+.get-started {
+  max-width: 100%;
+  margin-top: 56px;
+  text-align: center;
+}
+
+.get-started>button {
+  cursor: pointer;
+  max-width: 100%;
+  color: #fff;
+  background-color: #ff5a3e;
+  padding: 8px 25px 9px;
+  letter-spacing: 0.035em;
+  line-height: 22px;
+  border: 0px;
+  border-radius: 3px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.build-your {
+  padding: 96px 12px;
+  max-width: 100%;
+  text-align: center;
+}
+
+.about-build-your {
+  display: flex;
+  column-gap: 20px;
+  max-width: 55%;
+  margin: 0px auto;
+}
+
+.fundamental>img {
+  max-width: 536px;
+  height: 300px;
+}
+
+.technical>img {
+  max-width: 536px;
+  height: 300px;
+}
+
+.clients-say {
+  padding: 96px 12px;
+  background-color: #f3f3f5;
+}
+
+.about-clients-say {
+  display: flex;
+  max-width: 75%;
+  margin: 0px auto;
+  column-gap: 25px;
+}
+
+.about-clients-say>div {
+  box-shadow: 0 0 16px 1px rgb(0 0 0 / 5%);
+  background-color: #ffffff;
+  padding: 24px 16px;
+  max-width: 378px;
+  height: 239px;
+  cursor: pointer;
+}
+
+.about-say {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-say>img {
+  width: 16px;
+  height: 16px;
+}
+
+.about-say>p {
+  flex: 1;
+  color: #4f566b;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.about-say>div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-say>div>p {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.about-say>div>img {
+  width: 32px;
+  height: 32px;
+}
+
+.simple-to-started {
+  padding: 96px 12px;
+}
+
+.ready-to-get-free {
+  padding: 96px 12px;
+}
+
+.create {
+  max-width: 26%;
+  margin: 0px auto;
+}
+
+.create>h3 {
+  color: #141415;
+  margin-bottom: 6px;
+}
+
+.create>input {
+  padding: 16px;
+  max-width: 444px;
+  width: 100%;
+  line-height: 24px;
+  border-radius: 3px;
+  font-weight: 400;
+  font-size: 16px;
+  background: no-repeat right 20px center;
+  transition: border-color ease-out 0.3s, background-color ease-out 0.3s, color ease-out 0.3s;
+  color: #4a4a4a;
+  appearance: none;
+  outline: none;
+  background-color: #fff;
+  border: 1px solid #4a4a4a;
+  opacity: 50%;
+}
+
+.create>div {
+  margin-top: 16px;
+}
+
+.state>label {
+  font-size: 14px;
+  color: #4f566b;
+}
+
+.state>label>u {
+  cursor: pointer;
+}
+
+.sign-up>button {
+  cursor: pointer;
+  transition: background-color ease-out 0.3s;
+  border-radius: 3px;
+  text-align: center;
+  letter-spacing: 0.035em;
+  padding: 14px 40px 14px;
+  line-height: 22px !important;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  background-color: #ff5a3e;
+  outline: none;
+  border: 0px;
+  height: 50px;
+  max-width: 100%;
+  width: 100%;
+}
+
+.with-gg-fb {
+  display: flex;
+}
+
+.gg {
+  flex: 1;
+  box-shadow: inset 0 0 0 1px #8e9097;
+  background-color: #ffffff;
+  border: 0.5px solid #4f566b;
+  padding: 17px 30px;
+  display: flex;
+}
+
+.gg>svg {
+  width: 20px;
+  height: 20px;
+}
+
+.gg>span {
+  font-size: 18px;
+  padding-left: 14px;
+  font-weight: 600px;
+  border-radius: 3px;
+}
+
+.fb {
+  max-width: 56px;
+  width: 100%;
+  height: 56px;
+  margin-left: 10px;
+}
+
+.title-account>p {
+  margin: 56px auto 0px;
+  max-width: 55%;
+  width: 100%;
+}
+
+.title-account>p>u {
+  color: #4f566b;
+  cursor: pointer;
+}
+
+.about-user {
+  background: linear-gradient( 
+  90deg,
+  #22293d 0%,
+  #22293d 50%,
+  #1c2130 50%,
+  #1c2130 100% );
+  display: flex;
+  justify-content: center;
+}
+
+.left {
+  display: flex;
+}
+
+.left > div {
+  max-width: 305px;
+  width: 100%;
+  height: 159px;
+  padding: 32px 12px;
+}
+
+.left > div > h4 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  margin: 8px 0px 0px;
+}
+
+.left > div >  p {
+  margin-top: 6px;
+  font-size: 16px;
+  color: #949cb1;
+}
+
+.right {
+  display: flex;
+}
