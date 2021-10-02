@@ -453,6 +453,44 @@ body {
   padding: 96px 12px;
 }
 
+.about-to-started {
+  
+
+}
+
+.block-to-started {
+  display: flex;
+  max-width: 66%;
+  margin: 0px auto;
+}
+
+.block-to-started > div > h1 {
+  color: #29b672;
+  font-size: 54px;
+}
+
+.block-sign-up {
+  max-width: 407.33px;
+  padding: 27px 100px 0px 0px;
+  border-top: 1px dotted #29b672;
+}
+
+.block-sign-up > h4 {
+  color: #141415;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: 7px;
+}
+
+.block-sign-up > p {
+  max-width: 305px;
+  width: 100%;
+  color: #4f566b;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
 .create {
   max-width: 26%;
   margin: 0px auto;
@@ -568,30 +606,23 @@ body {
   justify-content: center;
 }
 
-.left {
-  display: flex;
-}
-
-.left > div {
+.about-user > div {
   max-width: 305px;
   width: 100%;
-  height: 159px;
-  padding: 32px 12px;
+  height: 110px;
+  padding: 32px 12px 0px;
 }
 
-.left > div > h4 {
+.about-user > div > h4 {
   color: #fff;
   font-weight: 700;
   font-size: 18px;
   margin: 8px 0px 0px;
 }
 
-.left > div >  p {
+.about-user > div >  p {
   margin-top: 6px;
   font-size: 16px;
   color: #949cb1;
 }
 
-.right {
-  display: flex;
-}
